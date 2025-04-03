@@ -9,7 +9,7 @@ Elle permet de gérer :
 
 ✅ Les emprunts et retours
 
-✅ Les recherches et rapports
+
 
 ## 🚀 Fonctionnalités
 ### 📖 Gestion des Livres
