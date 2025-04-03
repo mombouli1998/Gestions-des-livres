@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BibliothequeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Emprunts">
+    <Key>
+      <PropertyRef Name="IdEmprunts" />
+    </Key>
+    <Property Name="IdEmprunts" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LivreId" Type="Int32" Nullable="false" />
+    <Property Name="MembreId" Type="Int32" Nullable="false" />
+    <Property Name="DateEmprunt" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DateRetour" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Livre" Relationship="Self.FK_Emprunts_Livre" FromRole="Emprunts" ToRole="Livre" />
+    <NavigationProperty Name="Membres" Relationship="Self.FK_Emprunts_Membres" FromRole="Emprunts" ToRole="Membres" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="Genre1" />
+    </Key>
+    <Property Name="Genre1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Livre" Relationship="Self.FK_Livre_Genre" FromRole="Genre" ToRole="Livre" />
+  </EntityType>
+  <EntityType Name="Livre">
+    <Key>
+      <PropertyRef Name="IdLivre" />
+    </Key>
+    <Property Name="IdLivre" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Titre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Auteur" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Isbn" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DatePublication" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Genre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Statut" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Emprunts" Relationship="Self.FK_Emprunts_Livre" FromRole="Livre" ToRole="Emprunts" />
+    <NavigationProperty Name="Genre1" Relationship="Self.FK_Livre_Genre" FromRole="Livre" ToRole="Genre" />
+  </EntityType>
+  <EntityType Name="Membres">
+    <Key>
+      <PropertyRef Name="IdPersonne" />
+    </Key>
+    <Property Name="IdPersonne" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Prenom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Adresse" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telephone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Emprunts" Relationship="Self.FK_Emprunts_Membres" FromRole="Membres" ToRole="Emprunts" />
+  </EntityType>
+  <Association Name="FK_Emprunts_Livre">
+    <End Role="Livre" Type="Self.Livre" Multiplicity="1" />
+    <End Role="Emprunts" Type="Self.Emprunts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Livre">
+        <PropertyRef Name="IdLivre" />
+      </Principal>
+      <Dependent Role="Emprunts">
+        <PropertyRef Name="LivreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Emprunts_Membres">
+    <End Role="Membres" Type="Self.Membres" Multiplicity="1" />
+    <End Role="Emprunts" Type="Self.Emprunts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Membres">
+        <PropertyRef Name="IdPersonne" />
+      </Principal>
+      <Dependent Role="Emprunts">
+        <PropertyRef Name="MembreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Livre_Genre">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="1" />
+    <End Role="Livre" Type="Self.Livre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="Genre1" />
+      </Principal>
+      <Dependent Role="Livre">
+        <PropertyRef Name="Genre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BibliothequeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Emprunts" EntityType="Self.Emprunts" />
+    <EntitySet Name="Genre" EntityType="Self.Genre" />
+    <EntitySet Name="Livre" EntityType="Self.Livre" />
+    <EntitySet Name="Membres" EntityType="Self.Membres" />
+    <AssociationSet Name="FK_Emprunts_Livre" Association="Self.FK_Emprunts_Livre">
+      <End Role="Livre" EntitySet="Livre" />
+      <End Role="Emprunts" EntitySet="Emprunts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Emprunts_Membres" Association="Self.FK_Emprunts_Membres">
+      <End Role="Membres" EntitySet="Membres" />
+      <End Role="Emprunts" EntitySet="Emprunts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Livre_Genre" Association="Self.FK_Livre_Genre">
+      <End Role="Genre" EntitySet="Genre" />
+      <End Role="Livre" EntitySet="Livre" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BibliothequeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Emprunts">
+    <Key>
+      <PropertyRef Name="IdEmprunts" />
+    </Key>
+    <Property Name="IdEmprunts" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LivreId" Type="int" Nullable="false" />
+    <Property Name="MembreId" Type="int" Nullable="false" />
+    <Property Name="DateEmprunt" Type="date" Nullable="false" />
+    <Property Name="DateRetour" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="Genre" />
+    </Key>
+    <Property Name="Genre" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Livre">
+    <Key>
+      <PropertyRef Name="IdLivre" />
+    </Key>
+    <Property Name="IdLivre" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Titre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Auteur" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Isbn" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DatePublication" Type="date" Nullable="false" />
+    <Property Name="Genre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Statut" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="image" Type="image" />
+    <Property Name="nbEmprunt" Type="int" />
+  </EntityType>
+  <EntityType Name="Membres">
+    <Key>
+      <PropertyRef Name="IdPersonne" />
+    </Key>
+    <Property Name="IdPersonne" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Prenom" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Adresse" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telephone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="image" Type="image" />
+  </EntityType>
+  <Association Name="FK_Emprunts_Livre">
+    <End Role="Livre" Type="Self.Livre" Multiplicity="1" />
+    <End Role="Emprunts" Type="Self.Emprunts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Livre">
+        <PropertyRef Name="IdLivre" />
+      </Principal>
+      <Dependent Role="Emprunts">
+        <PropertyRef Name="LivreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Emprunts_Membres">
+    <End Role="Membres" Type="Self.Membres" Multiplicity="1" />
+    <End Role="Emprunts" Type="Self.Emprunts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Membres">
+        <PropertyRef Name="IdPersonne" />
+      </Principal>
+      <Dependent Role="Emprunts">
+        <PropertyRef Name="MembreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Livre_Genre">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="1" />
+    <End Role="Livre" Type="Self.Livre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="Genre" />
+      </Principal>
+      <Dependent Role="Livre">
+        <PropertyRef Name="Genre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BibliothequeModelStoreContainer">
+    <EntitySet Name="Emprunts" EntityType="Self.Emprunts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Genre" EntityType="Self.Genre" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Livre" EntityType="Self.Livre" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Membres" EntityType="Self.Membres" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Emprunts_Livre" Association="Self.FK_Emprunts_Livre">
+      <End Role="Livre" EntitySet="Livre" />
+      <End Role="Emprunts" EntitySet="Emprunts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Emprunts_Membres" Association="Self.FK_Emprunts_Membres">
+      <End Role="Membres" EntitySet="Membres" />
+      <End Role="Emprunts" EntitySet="Emprunts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Livre_Genre" Association="Self.FK_Livre_Genre">
+      <End Role="Genre" EntitySet="Genre" />
+      <End Role="Livre" EntitySet="Livre" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

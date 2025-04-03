@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\userlivre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:userlivre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|c:\\users\\trini\\documents\\c#\\.net\\mt_technologie\\biblio\\lesemprunts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:lesemprunts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\ajoutlivrecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:ajoutlivrecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\emprunts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:emprunts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\lesemprunts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:lesemprunts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\modifiermembre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:modifiermembre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\ajoutmembre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:ajoutmembre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\membres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:membres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\bibliotheque.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:bibliotheque.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\emprunter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92860F47-6CF7-456B-9EC8-7E3FC19ABCBA}|Biblio.csproj|solutionrelative:emprunter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserLivre.cs",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\UserLivre.cs",
+              "RelativeDocumentMoniker": "UserLivre.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\UserLivre.cs*",
+              "RelativeToolTip": "UserLivre.cs*",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAJcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T10:31:53.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lesEmprunts.cs",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\lesEmprunts.cs",
+              "RelativeDocumentMoniker": "lesEmprunts.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\lesEmprunts.cs*",
+              "RelativeToolTip": "lesEmprunts.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T18:52:11.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AjoutLivrecs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\AjoutLivrecs.cs",
+              "RelativeDocumentMoniker": "AjoutLivrecs.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\AjoutLivrecs.cs [Design]*",
+              "RelativeToolTip": "AjoutLivrecs.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T10:32:43.882Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Emprunts.cs",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Emprunts.cs",
+              "RelativeDocumentMoniker": "Emprunts.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Emprunts.cs",
+              "RelativeToolTip": "Emprunts.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA4wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T21:22:01.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "lesEmprunts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\lesEmprunts.cs",
+              "RelativeDocumentMoniker": "lesEmprunts.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\lesEmprunts.cs [Design]*",
+              "RelativeToolTip": "lesEmprunts.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T21:05:20.058Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModifierMembre.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\ModifierMembre.cs",
+              "RelativeDocumentMoniker": "ModifierMembre.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\ModifierMembre.cs [Design]*",
+              "RelativeToolTip": "ModifierMembre.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T10:20:25.802Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:46:15.059Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AjoutMembre.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\AjoutMembre.cs",
+              "RelativeDocumentMoniker": "AjoutMembre.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\AjoutMembre.cs [Design]*",
+              "RelativeToolTip": "AjoutMembre.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T18:27:48.033Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Home.cs",
+              "RelativeDocumentMoniker": "Home.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Home.cs [Design]",
+              "RelativeToolTip": "Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T21:05:22.107Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Membres.cs",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Membres.cs",
+              "RelativeDocumentMoniker": "Membres.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Membres.cs",
+              "RelativeToolTip": "Membres.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwC0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T18:37:59.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Livre.cs",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Livre.cs",
+              "RelativeDocumentMoniker": "Livre.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Livre.cs",
+              "RelativeToolTip": "Livre.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA7wC0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T18:37:00.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Bibliotheque.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Bibliotheque.edmx",
+              "RelativeDocumentMoniker": "Bibliotheque.edmx",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Bibliotheque.edmx [Diagram1]",
+              "RelativeToolTip": "Bibliotheque.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-03-14T18:35:43.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T18:34:08.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Properties\\Settings.settings",
+              "RelativeToolTip": "Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-03-14T18:34:05.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Emprunter.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Emprunter.Designer.cs",
+              "RelativeDocumentMoniker": "Emprunter.Designer.cs",
+              "ToolTip": "C:\\Users\\trini\\Documents\\C#\\.Net\\MT_Technologie\\Biblio\\Emprunter.Designer.cs",
+              "RelativeToolTip": "Emprunter.Designer.cs",
+              "ViewState": "AgIAAKYBAAAAAAAAAAAQwLIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T14:51:06.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

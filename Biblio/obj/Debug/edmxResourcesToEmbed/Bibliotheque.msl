@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BibliothequeModelStoreContainer" CdmEntityContainer="BibliothequeEntities1">
+    <EntitySetMapping Name="Emprunts">
+      <EntityTypeMapping TypeName="BibliothequeModel.Emprunts">
+        <MappingFragment StoreEntitySet="Emprunts">
+          <ScalarProperty Name="IdEmprunts" ColumnName="IdEmprunts" />
+          <ScalarProperty Name="LivreId" ColumnName="LivreId" />
+          <ScalarProperty Name="MembreId" ColumnName="MembreId" />
+          <ScalarProperty Name="DateEmprunt" ColumnName="DateEmprunt" />
+          <ScalarProperty Name="DateRetour" ColumnName="DateRetour" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genre">
+      <EntityTypeMapping TypeName="BibliothequeModel.Genre">
+        <MappingFragment StoreEntitySet="Genre">
+          <ScalarProperty Name="Genre1" ColumnName="Genre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Livre">
+      <EntityTypeMapping TypeName="BibliothequeModel.Livre">
+        <MappingFragment StoreEntitySet="Livre">
+          <ScalarProperty Name="IdLivre" ColumnName="IdLivre" />
+          <ScalarProperty Name="Titre" ColumnName="Titre" />
+          <ScalarProperty Name="Auteur" ColumnName="Auteur" />
+          <ScalarProperty Name="Isbn" ColumnName="Isbn" />
+          <ScalarProperty Name="DatePublication" ColumnName="DatePublication" />
+          <ScalarProperty Name="Genre" ColumnName="Genre" />
+          <ScalarProperty Name="Statut" ColumnName="Statut" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="nbEmprunt" ColumnName="nbEmprunt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Membres">
+      <EntityTypeMapping TypeName="BibliothequeModel.Membres">
+        <MappingFragment StoreEntitySet="Membres">
+          <ScalarProperty Name="IdPersonne" ColumnName="IdPersonne" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+          <ScalarProperty Name="Prenom" ColumnName="Prenom" />
+          <ScalarProperty Name="Adresse" ColumnName="Adresse" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="image" ColumnName="image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
